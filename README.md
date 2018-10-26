@@ -1,10 +1,10 @@
-# Building applications with Spring 5.0 and Vue.js 2.0
+# Building applications with Spring 5 and Vue.js 2
 
 <a href="https://www.packtpub.com/application-development/building-applications-spring-50-and-vuejs-20?utm_source=github&utm_medium=repository&utm_campaign=9781788836968 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09533_MockupCover_NewJJ.png" alt="Building applications with Spring 5.0 and Vue.js 2.0" height="256px" align="right"></a>
 
 This is the code repository for [Building applications with Spring 5.0 and Vue.js 2.0](https://www.packtpub.com/application-development/building-applications-spring-50-and-vuejs-20?utm_source=github&utm_medium=repository&utm_campaign=9781788836968 ), published by Packt.
 
-**Build a modern, full-stack web application using Spring Boot and Vuex	**
+**Build a modern, full-stack web application using Spring Boot and Vuex**
 
 ## What is this book about?
 Apart from knowing how to write front-end and server-end code, a full-stack engineer has to tackle all the problems that are encountered in the application development lifecycle, starting from a simple idea to UI design, technical design, and all the way to implementing, testing, production deployment and monitoring. This book covers the full set of technologies that you need to know to become a full-stack web developer with Spring and Vue.js. You will learn not only how to do it but also the key design patterns and best practices that underpin professional full-stack web development.
