@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Messages App</title>    
+  <style>
+    [v-cloak] {display: none;}
+    body > div {width: 500px; margin: 0 auto;}
+    textarea {width: 100%;}
+    ul {padding: 0 15px;}
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>  
+    <message-list :items="messages" @delete="deleteMessage"></message-list>
+    <form @submit.prevent="addMessage">
+      <textarea v-model="newMessage" placeholder="Leave a message" v-focus></textarea>
+      <div><button :disabled="addDisabled" type="submit">Add</button></div>
+    </form>
+  </div>
+  <script src="https://unpkg.com/vue@2.5.13/dist/vue.js"></script>  
+  <script type="module">
+    import MessageList from './components/MessageList.js'
+    import lifecyleLogger from './mixins/lifecycle-logger.mixin.js'
+    import './directives/focus.directive.js'
+    import './filters/datetime.filter.js'
+
+    let vm = new Vue({
+      el: '#app',
+      name: 'MessagesApp',
+      mixins: [lifecyleLogger],
+      data: {
+        messages: [],
+        newMessage: ''
+      },
+      computed: {        
+        addDisabled () {
+          return this.messages.length >= 10 || this.newMessage.length > 50
+        }
+      },    
+      components: {
+        MessageList
+      },
+      methods: {
+        addMessage (event) {
+          if (!this.newMessage) return
+          let now = new Date()
+          this.messages.push({id: now.getTime(), text: this.newMessage, createdAt: now})
+          this.newMessage = ''
+        },
+        deleteMessage (message) {
+          this.messages.splice(this.messages.indexOf(message), 1)
+        }
+      }
+    })
+  </script>
+</body>
+</html>
