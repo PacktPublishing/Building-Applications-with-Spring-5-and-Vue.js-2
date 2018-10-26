@@ -40,16 +40,16 @@ With the following software and hardware list you can run all code files present
 ### Software and Hardware List
 | Sr. No | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
-| 1 | Chrome/Firefox Browser | Windows, Mac OS X, and Linux (Any) |
-| 2 | VS Code | Windows, Mac OS X, and Linux (Any) |
-| 3 | MySQL Community Server 5.7+ | Windows, Mac OS X, and Linux (Any) |
-| 4 | Java 8 | Windows, Mac OS X, and Linux (Any) |
-| 5 | RabbitMQ 3.x | Windows, Mac OS X, and Linux (Any) |
-| 6 | Maven 3+ | Windows, Mac OS X, and Linux (Any) |
-| 7 | Jenkins 2 | Windows, Mac OS X, and Linux (Any) |
-| 8 | Docker | Windows, Mac OS X, and Linux (Any) |
-| 9 | GraphicMagicks | Windows, Mac OS X, and Linux (Any) |
-| 10 | Node.js | Windows, Mac OS X, and Linux (Any) |
+| 1 | Chrome/Firefox Browser | Windows, Mac OS X |
+| 2 | VS Code | Windows, Mac OS X |
+| 3 | MySQL Community Server 5.7+ | Windows, Mac OS X |
+| 4 | Java 8 | Windows, Mac OS X |
+| 5 | RabbitMQ 3.x | Windows, Mac OS X |
+| 6 | Maven 3+ | Windows, Mac OS X |
+| 7 | Jenkins 2 | macOS / Windows / Linux |
+| 8 | Docker | macOS / Windows / Linux |
+| 9 | GraphicMagicks | macOS / Windows / Linux |
+| 10 | Node.js | macOS / Windows / Linux |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://www.packtpub.com/sites/default/files/downloads/9781788836968_ColorImages.pdf).
 
