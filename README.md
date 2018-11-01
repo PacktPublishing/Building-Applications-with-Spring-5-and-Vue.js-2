@@ -1,6 +1,6 @@
 # Building applications with Spring 5 and Vue.js 2
 
-<a href="https://www.packtpub.com/application-development/building-applications-spring-50-and-vuejs-20?utm_source=github&utm_medium=repository&utm_campaign=9781788836968 "><img src="https://d1ldz4te4covpm.cloudfront.net/sites/default/files/imagecache/ppv4_main_book_cover/B09533_MockupCover_NewJJ.png" alt="Building applications with Spring 5.0 and Vue.js 2.0" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/application-development/building-applications-spring-50-and-vuejs-20?utm_source=github&utm_medium=repository&utm_campaign=9781788836968 "><img src="https://www.packtpub.com/sites/default/files/9781788836968.png" alt="Building applications with Spring 5.0 and Vue.js 2.0" height="256px" align="right"></a>
 
 This is the code repository for [Building applications with Spring 5.0 and Vue.js 2.0](https://www.packtpub.com/application-development/building-applications-spring-50-and-vuejs-20?utm_source=github&utm_medium=repository&utm_campaign=9781788836968 ), published by Packt.
 
